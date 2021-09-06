@@ -2,3 +2,6 @@
 
 if you want to be pedantic, you can check the builtins too
 'a' in vars(__builtins__)
+
+'a' in vars() or 'a' in globals() or 'a' in vars(__builtins__)
+
