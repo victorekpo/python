@@ -6,8 +6,7 @@
 def double_char(str):
   newstr = ""
   for i in range(len(str)):
-    tempstr = str[i]*2
-    newstr += tempstr
+    newstr += str[i]*2
   return newstr
 
 print(double_char('The'))
