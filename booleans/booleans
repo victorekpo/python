@@ -1,0 +1,41 @@
+def sleep_in(weekday, vacation):
+  if weekday == False or vacation == True:
+    return True
+  else: 
+    return False
+
+#can be shortened to
+
+def sleep_in(weekday, vacation):
+  if not weekday or vacation:
+    return True
+  else:
+    return False
+  # This can be shortened to: return(not weekday or vacation)a
+
+def sleep_in(weekday, vacation):
+  return(not weekday or vacation)
+
+This says return True if not weekday (weekday is False) or return True if vacation (vacation is true)
+
+def monkey_trouble(a_smile, b_smile):
+  return((a_smile and b_smile) or (not a_smile and not b_smile))
+
+Return true if both are smiling or neither are smiling
+
+def sum_double(a, b):
+  same = a == b
+  if same:
+    return (a+b)*2
+  else:
+    return a+b
+
+Return double sum if values are the same else return their sum.
+
+def diff21(n):
+  if n <= 21:
+    return(abs(21-n))
+  else:
+    return(abs(21-n)*2)
+
+Return absolute difference between n and 21, except return double if over 21.

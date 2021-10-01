@@ -1,0 +1,8 @@
+Zip can combine two lists into one, but they must be of the same length.
+i.e.
+a=["Vic","Victor","Ekpo"]
+b=["1","2","3"]
+c=zip(a,b)
+d=dict(c)
+
+The resulting zip can then be further translated into a combined list, or set, or dictionary with K/V pair.
