@@ -1,0 +1,8 @@
+Return annotations can be seen in the definition of a function.
+
+def myFunc(a:'A string', b:str, c:int) -> 'Random strings':
+  return(a,b,c)
+
+myFunc.__annotations__
+
+Are very useful for laying out your program for later maintenance.
