@@ -1,0 +1,21 @@
+In Python2, print was a keyword which introduced a statement:
+
+print "Hi"
+In Python3, print is a function which may be invoked:
+
+print ("Hi")
+In both versions, % is an operator which requires a string on the left-hand side and a value or a tuple of values or a mapping object (like dict) on the right-hand side.
+
+So, your line ought to look like this:
+
+print("a=%d,b=%d" % (f(x,n),g(x,n)))
+Also, the recommendation for Python3 and newer is to use {}-style formatting instead of %-style formatting:
+
+print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
+Python 3.6 introduces yet another string-formatting paradigm: f-strings.
+
+print(f'a={f(x,n):d}, b={g(x,n):d}')
+
+
+Source: 
+https://stackoverflow.com/questions/19457227/how-to-print-like-printf-in-python3/19457247#19457247
