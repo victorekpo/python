@@ -1,0 +1,5 @@
+#This progam will print your name once inputted.
+print('Hello young man!')
+print('What is your name? Enter it below')
+myName = raw_input() #in Python 2 input is evaluated as an expression, use rawinput for strings.
+print('My name is ' + myName)
