@@ -33,8 +33,10 @@ for line in sys.stdin:
         tempLine=[]
         for val in s:
             val=val.strip()
-            tempLine.append(val)
+            if val not in tempLine:
+                tempLine.append(val)
             s=tempLine
+            print(s,tempLine)
         graph.append(s)
     elif "," in line:
         print(linkedlist_intersection(line.split(","), graph) )
