@@ -7,19 +7,23 @@ def linkedlist_intersection(group, graph) -> bool:
         group=tempGroup
     print("group",group,"graph",graph)
     interArray=[]
-    for i in group:
-        for j in graph:
-            if i in j:
-                if i not in interArray:
-                    interArray.append(i)
-                else:
-                    print("Value already there, intersection found at",i)
-                    return True
-                print(i,j)
-            elif i not in j:
-                if i in interArray:
-                    interArray.remove(i)
-                print(i,"is not there",j)
+    temp=[]
+    for item in group:
+        for arr in graph:
+            if item in arr:
+                checkItems=arr[arr.index(item):]
+                print("To Check",checkItems)
+                for i in checkItems:
+                    if i not in interArray:
+                       interArray.append(i)
+                    else:
+                        print("Value already there, intersection found at",i)
+                        print(interArray)
+                        return True
+            elif item not in arr:
+                if item in interArray:
+                    interArray.remove(item)
+                print(item,"is not there",arr)
     print("ARR",interArray)
     return False
 
