@@ -1,5 +1,12 @@
 import sys
 def linkedlist_intersection(group, graph) -> bool:
+    tempGroup=[]
+    for val in group:
+        val=val.strip()
+        tempGroup.append(val)
+        group=tempGroup
+    print(group)
+
     return (1>2)
 
 graph = [] #edge list representation
