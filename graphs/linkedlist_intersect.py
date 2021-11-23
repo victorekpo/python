@@ -5,26 +5,25 @@ def linkedlist_intersection(group, graph) -> bool:
         val=val.strip()
         tempGroup.append(val)
         group=tempGroup
-    print("group",group,"graph",graph)
+    #print("group",group,"graph",graph)
     interArray=[]
-    temp=[]
     for item in group:
         for arr in graph:
             if item in arr:
                 checkItems=arr[arr.index(item):]
-                print("To Check",checkItems)
+                #print("To Check",checkItems)
                 for i in checkItems:
                     if i not in interArray:
                        interArray.append(i)
                     else:
-                        print("Value already there, intersection found at",i)
+                        print("Intersection found at",i)
                         print(interArray)
                         return True
             elif item not in arr:
                 if item in interArray:
                     interArray.remove(item)
-                print(item,"is not there",arr)
-    print("ARR",interArray)
+                #print(item,"is not there",arr)
+    #print("ARR",interArray)
     return False
 
 graph = [] #edge list representation
