@@ -1,0 +1,1298 @@
+q
+python
+exit
+exit()
+def maxEvents(arrival, duration):
+events = [0]
+arr_sorted, dur_sorted = zip(*sorted(zip(arrival, duration)))
+EXIT
+exit
+exit()
+def maxEvents(arrival, duration):
+  events = [0]
+arr_sorted, dur_sorted = zip(*sorted(zip(arrival, duration)))
+for i in range(len(arrival)-1):
+    if arr_sorted[events[-1]]+dur_sorted[events[-1]] <= arr_sorted[i+1]:
+events.append(i+1)
+    elif arr_sorted[events[-1]]+dur_sorted[events[-1]] >= arr_sorted[i+1]+dur_sorted[i+1]:
+events.pop()
+events.append(i+1)
+return len(events)
+:q
+exit()
+def maxEvents(arrival, duration):
+  events = [0]
+  arr_sorted, dur_sorted = zip(*sorted(zip(arrival, duration)))
+  for i in range(len(arrival)-1):
+    if arr_sorted[events[-1]]+dur_sorted[events[-1]] <= arr_sorted[i+1]:
+        events.append(i+1)
+    elif arr_sorted[events[-1]]+dur_sorted[events[-1]] >= arr_sorted[i+1]+dur_sorted[i+1]:
+        events.pop()
+        events.append(i+1)
+  return len(events)
+arrival=[1,3,5]
+duration=[2,2,2]
+result=maxEvents(arrival, duration)
+print(result)
+:q
+exit()
+def myfunc(a=1, b=3):
+return a,b
+  return a,b
+def myfunc(a=1, b=3):
+  return a,b
+end
+myfunc()
+def myfunc(a=1, b=3):
+  return a,b
+myfunc()
+def myfunc(a=1, b=3):
+myfunc()
+def myfunc(a=1, b=3):
+  return a,b
+myfunc()
+a, *_ = myfunc()
+a
+a,b = myfunc()
+a
+b
+a,b = myfunc(4,5)
+b
+a,_ = myfunc(4,05)
+a,_ = myfunc(4,50)
+b
+a
+a = myfunc(4,50)[1]
+a
+c
+exit
+exit()
+functionresult=add_numbers(a, b,c):
+    if(c !== null || c!== undefined):
+return("vic");
+else:return("vic2");
+function result=add_numbers(a, b,c):
+exit()
+def add_numbers(a, b, c):
+  if (c !== null || c!== undefined):
+return("vic");
+    else: return("vic2");
+def add_numbers(a, b, c):
+  if (c !== null || c!== undefined):
+def add_numbers(a, b, c):
+  if (c != null || c!= undefined):
+def add_numbers(a, b, c):
+  if c != null or c!= undefined:
+   return("vic");
+  else: return("vic2");
+add_numbers(1,2)
+add_numbers(1,2,)
+add_numbers(1,2,null)
+add_numbers(1,2,0)
+def add_numbers(a, b, c):
+  try: c
+  except NameError: c = 10
+  print(a,b,c)
+add_numbers(1,1)
+add_numbers(1,1,0)
+def add_numbers(a, b, *args):
+  try: c
+  except NameError: c = 10
+  print(a,b,c)
+add_numbers(1,1)
+add_numbers(1,1,6)
+add_numbers(1,1,c=5)
+add_numbers(1,1,4)
+def add_numbers(a, b, c=undefined):
+  try: c
+  except NameError: c = 10
+  print(a,b,c)
+  
+def add_numbers(*args):
+  if len(args) > 2:
+   noargs=[]
+   print("more than 2")
+add_numbers(1,2,3,4)
+add_numbers(1,2)
+add_numbers(1,2,4,4,)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = $1+$2
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    args.push(result)
+    print(result)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    list = list(args)
+    list.append(result)
+    list.pop()
+    print(list)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    print(result)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    print(l)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    l.pop()
+    print(l)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    print(l)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    l.pop()
+    print(l)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    newl = l[2:]
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    newl = l[2:]
+    print(newl)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    l = l[2:]
+    print(l)
+add_numbers(1,2,3)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = l[2:]
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    l = l[2:]
+    args = tuple(l)
+    add_numbers(args)
+  else: return args[0]+args[1]
+add_numbers(1,2,3)
+add_numbers(1,2)
+def add_numbers(*args):
+  if len(args) > 2:
+    result = args[0]+args[1]
+    l = list(args)
+    l.append(result)
+    l = l[2:]
+    args = tuple(l)
+    print(args)
+add_numbers(1,2,3)
+exit()
+nums=int(n+1)
+n=2
+nums=int[n+1]
+n
+nums=new int[n+1]
+nums=new int(n+1)
+nums=new int
+nums=new 3
+nums=new(3)
+nums=new n
+nums[0]
+nums = new int[5]
+nums = int(3)
+nums
+nums = int[3]
+*anums = int[3]
+anums = int[3]
+anums=[]
+anums = int[3]
+anums = int['3']
+anums = new int['3']
+anums = new int[3]
+bar(int n){
+    int *array = new int[n];
+exit
+exit()
+def add_numbers(*args):
+  print("1",args)
+  while len(args) > 2:
+    result = args[0] + args[1]
+    l = list(args)
+    l.append(result)
+    l = l[2:]
+    args = tuple(l)
+    print("2",args)
+  if len(args) <= 2: 
+    print("done")
+    final = args[0] + args[1]
+    return(final)
+#   add_numbers(*args) extra call not needed
+add_numbers(50)
+add_numbers(50,5)
+add_numbers(50,5,8,999,9,8,667,9,900,66,88)
+add_numbers(50,5,8,999,9,8,667,9,900,66,88,99999999)
+add_numbers(50,5,8,999,9,8,667,9,900,66,88,99999999,88888888999)
+add_numbers(50,5,8,999,9,8,667,9,900,66,88,99999999,88888888999,9)
+add_numbers(50,5,8,999,9,8,667,9,900,66,88,99999999,88888888999,999999)
+add_numbers(50,5,8,999,9,8,667,9,900,66,88,99999999,88888888999,999999,8,9,8,7,8,9,9,7,8,9,9,7,9,8)
+try:
+    thevariable
+except NameError:
+    print("well, it WASN'T defined after all!")
+else:
+    print("sure, it was defined.")
+thevariable = 1
+try:
+    thevariable
+except NameError:
+    print("well, it WASN'T defined after all!")
+else:
+    print("sure, it was defined.")
+exit
+exit()
+a = 1
+a in vars()
+a in global()
+'a' in global()
+'a' in vars()
+global()
+global
+vars(0
+vars()
+a in globals()
+'a' in globals()
+globals()
+'a' in vars() or 'a' in globals() or 'a' in vars(__builtins__)
+exit()
+try:
+    thevariable
+except NameError:
+    print("well, it WASN'T defined after all!")
+else:
+    print("sure, it was defined.")
+try:
+    thevariable
+except err:
+    print("well, it WASN'T defined after all!")
+else:
+    print("sure, it was defined.")
+finally:
+    print("done.")
+NameError
+a = new NameError
+a = new NameError()
+NameError()
+a = NameError()
+a
+a = NameError
+a
+err
+err = 0
+int error
+var error
+let error
+error = None
+try:
+except error:
+exit()
+MyList = [1,2,3]
+if (l := len(mylist) > 2)
+if (l := len(MyList) > 2):
+print(l)
+if (l := len(MyList) > 2):
+  print(l)
+print l
+print(l)
+exit
+string = "hello"
+string.split()
+string="this is a test"
+string.split()
+string.split().split()
+string.split().append(1)
+string.split().append(1).pop
+string.split().append(1).pop()
+string.split()
+v=string.split().append(1).pop()
+v=string.split().append(1)
+print(v)
+v=[]
+v=string.split().append(1)
+v=string.split()
+v
+v=string.split().append(1)
+v
+v=string.split()
+v
+v.append(1)
+v
+v.pop()
+v
+v1={"a": 10, "b": 20}
+v2={"c": 30. "d": 40}
+v2={"c": 30, "d": 40}
+d3 = {**d1, **d2|
+d3 = {**d1, **d2}
+v3={**v1, **v2}
+v3
+v3={***v1, ***v2}
+v3={*v1, *v2}
+v3
+v3={*v1, *v2}
+v3
+v3={*v2, *v1}
+v3
+v3={*v2}
+v3
+v3={**v2}
+v3
+person=["Vic","Person2","Person3"]
+attrib=["best","alsobest","alsoalsobest"]
+for person, attrib in zip(person,attrib):
+  print(person,attrib)
+v=zip(person,attrib):
+v=zip(person,attrib)
+v
+v.person
+v.zip
+list(v)
+v
+set(v)
+s=set(v)
+print(s)
+v
+list(v)
+v=zip(person,attrib)
+v
+set(v)
+a=['x','y','z']
+val=[1,2,3]
+result=zip(a,val)
+rlist=list(result)
+rlist
+set(result)
+result=zip(a,val)
+set(result)
+person=["Vic","Person2","Person3"]
+person
+attrib
+attrib=["best","alsobest","alsoalsobest"]
+attrib
+t=zip(person,attrib)
+t
+list(t)
+set(t)
+t=zip(person,attrib)
+set(t)
+dict(t)
+t=zip(person,attrib)
+dict(t)
+def myFunc(a: 'string', b: 'another string') -> 'Two Strings':
+  a="Vic"
+  b="Ekpo"
+  return(a,b)
+myFunc('v','2')
+myFunc.__annotations__
+def myFunc(a: str, b: 'another string') -> 'Two Strings':
+ a="1"
+ b="2"
+ return(a,b)
+myFunc.__annotations__
+a=5
+a=500
+str(a)
+str(a).rstrip('0')
+class Solution:
+    def validMountainArray(self, arr: List[int]) -> bool:
+        if(len(A) < 3):
+            return False
+        i=1
+        while (i < len(A) and A[i] > A[i-1]):
+            i +=1
+        if (i==1 or i == len(A)):
+            return False
+        while (i<len(A) and A[i]<A[i-1]):
+            i+=1
+        return i == len(A)
+.edit
+edit
+.editor
+class Solution:
+    def validMountainArray(self, arr: List[int]) -> bool:
+        if(len(A) < 3):
+            return False
+        i=1
+        while (i < len(A) and A[i] > A[i-1]):
+            i +=1
+        if (i==1 or i == len(A)):
+            return False
+        while (i<len(A) and A[i]<A[i-1]):
+            i+=1
+        return i == len(A)
+exit
+menu
+help
+help()
+edit()
+exit
+edit()
+exit
+a=[0]
+a
+a=[0]*3
+a
+a=[0]*1
+a
+a=[0]*5
+a[1]=1
+a[2]=2
+:q
+s = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+d = defaultdict(list)
+from collections import defaultdict
+d=defaultdict(list)
+for k, v in s:
+	d[k].append(v)
+d
+s
+d=]\
+d=0
+d
+d=defaultdict(list)
+d
+d=0
+d=defaultdict(int)
+d
+for k, v in s:
+	d[k].append(v)
+d
+for k, v in s:
+	d[k].append(v)
+d=defaultdict(int)
+d=defaultdict(dict)
+d
+d=defaultdict(list)
+for k, v in s:
+	d[k].append(v)
+d
+s
+exit
+filename="fib.js"
+def tail(filename, n=10):
+    'Return the last n lines of a file'
+    with open(filename) as f:
+        return deque(f, n)
+tail(filename,10)
+from collections import deque
+tail(filename,10)
+tail(filename,20)
+tail(filename,30)
+deque
+deque(filename)
+open(filename)
+a=open(filename)
+a
+deque(a)
+a[0]
+type a
+typeof a
+type(a)
+isinstance(a)
+isInstance(a)
+isinstance(a, (list))
+isinstance(a, (text))
+a
+deque(a,1)
+deque(a).popleft()
+deque(a)
+a
+deque(a,10)
+deque(a)
+a=open(filename)
+deque(a)
+deque(a).popleft()
+deque(a)
+a=open(filename)
+deque(a).popleft()
+deque(a)
+a
+a=open(filename)
+b=deque(a)
+b
+b.popleft()
+b
+b.popleft()
+b
+b.popleft()
+b
+b.append(2)
+b
+b.popright()
+b.pop()
+b
+b.popleft()
+b
+b.popleft()
+b
+b.popleft()
+b
+b.pop()
+b
+class LRU:
+    def __init__(self, func, maxsize=128):
+        self.func = func
+        self.maxsize = maxsize
+        self.cache = OrderedDict()
+    def __call__(self, *args):
+        if args in self.cache:
+            value = self.cache[args]
+            self.cache.move_to_end(args)
+            return value
+        value = self.func(*args)
+        if len(self.cache) >= self.maxsize:
+            self.cache.popitem(False)
+        self.cache[args] = value
+        return value
+a=[1,2,3]
+from collections import deque
+b=deque.a
+b=deque(a)
+b.reverse
+b.reverse()
+b
+b.reverse()
+b
+v="Victor"
+v=deque(v)
+v
+v.reverse()
+v
+v.join()
+str
+''.join(v)
+v
+v.reverse()
+v
+" My name is ".join(v)
+" ".join(v)
+"*".join(v)
+"-".join(v)
+v.join(v)
+"".join(v)
+str.join(v)
+"".join(v)
+v="".join(v)
+v
+v=deque(v)
+v
+v="".join(v)
+v
+v=deque(v)
+v
+v.pop
+v.pop()
+v.popleft()
+v="".join(v)
+v
+v=deque(v)
+for i in range (0,2):
+  v.pop()
+  v.popleft()
+v
+v="Victor"
+v=deque(v)
+for i in range (0,2):
+  v.popleft()
+v
+v="".join(v)
+v
+defaultdict in python
+Dictionary in Python is an unordered collection of data values that are used to store data values like a map. Unlike other Data Types that hold only single value as an element, the Dictionary holds key-value pair. In Dictionary, the key must be unique and immutable. This means that a Python Tuple can be a key whereas a Python List can not. A Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’. 
+Defaultdict is a container like dictionaries present in the module collections. Defaultdict is a sub-class of the dictionary class that returns a dictionary-like object. The functionality of both dictionaries and defualtdict are almost same except for the fact that defualtdict never raises a KeyError. It provides a default value for the key that does not exists.
+from collections import defaultdict
+# Defining the dict
+d = defaultdict(lambda: "Not Present")
+d["a"] = 1
+d["b"] = 2
+# Provides the default value
+# for the key
+print(d.__missing__('a'))
+print(d.__missing__('c'))
+d['a']
+d['a']=1
+d['a']
+d.__missing__('a'))
+d.__missing__('a')
+d['a']
+d['a']=1
+d
+d['a']=1
+d
+d['a']
+d.__missing__('a')
+d['a']
+d
+d.__missing__('d')
+d
+d.__missing__('d')
+d.__missing__('z')
+d
+from collections import defaultdict
+# Defining a dict
+d = defaultdict(list)
+ 
+for i in range(5):
+    d[i].append(i)
+     
+print("Dictionary with values as list:")
+print(d)
+for i in range(5):
+  d[i].append(i)
+d
+for i in range(5):
+  d['test'].append(i)
+d
+d = defaultdict(int)
+  
+L = [1, 2, 3, 4, 2, 4, 1, 2]
+  
+# Iterate through the list
+# for keeping the count
+for i in L:
+      
+    # The default value is 0
+    # so there is no need to
+    # enter the key first
+    d[i] += 1
+      
+print(d)
+d
+for i in L:
+      
+    # The default value is 0
+    # so there is no need to
+    # enter the key first
+    d[i] += 1
+d
+.exit
+import robin_stocks.robinhood as r
+import matplotlib.pyplot as plt
+import datetime as dt
+#!!! Fill out username and password
+username="algorithm_v"
+password="Godisthebestyes72022"
+#!!!
+login = r.login(username,password)
+912971
+stocks = r.request_get(
+    "https://api.robinhood.com/midlands/tags/tag/technology/")
+stocks
+print(
+    f"\nthere are a total of {stocks['membership_count']} technology stocks, currently viewing {len(stocks['instruments'])}")
+data = r.filter_data(stocks, 'instruments')
+first = data[0]
+first_data = r.request_get(first)
+print("\n======the quote data for the first entry is=====\n")
+print(first_data)
+print("\ngetting the rest of the quote data now. This may take a minute....")
+full_quote_data = [r.request_get(x) for x in data]
+print("Now I am getting the filter data...")
+#I can also filter the data
+margin_quote_data = []
+for entry in data:
+    quote_data = r.request_get(entry)
+    if float(quote_data['margin_initial_ratio']) > 0.5:
+        margin_quote_data.append(quote_data)
+print(f"There are {len(margin_quote_data)} entries that fit the criteria.")
+data[0]
+r.request_get(first)
+r.request_get(data[1])
+r.request_get(data[2])
+positions = r.get_open_stock_positions()
+positions
+r.get_symbol_by_url(data[0])
+data[0]
+r.get_symbol_by_url(data[1])
+r.get_symbol_by_url(data[2])
+r.get_symbol_by_url(data[3])
+r.get_symbol_by_url(data[4])
+r.get_symbol_by_url(data[5])
+r.get_symbol_by_url(data[6])
+r.get_name_by_symbol(AAPL)
+r.get_name_by_symbol("AAPL")
+r.get_name_by_symbol("TWLO")
+r.get_option_historicals("TWLO")
+r.get_option_historicals("TWLO","2021-07-01")
+r.get_option_historicals("TWLO","2021-07-01","300")
+r.get_option_historicals("TWLO","2021-07-01","300","call")
+r.get_option_historicals("TWLO","2021-07-01","200","call")
+r.get_option_historicals("TWLO","20210701","200","call")
+r.get_option_historicals("TWLO","2021-07-01","200","call")
+r.get_option_historicals("TWLO","2021-07-01",any,"call")
+r.get_option_historicals("TWLO","2021-07-01",,"call")
+r.get_option_historicals("TWLO","2021-07-01",0,"call")
+r.get_option_historicals("TWLO","2021-07-01",300,"call")
+r.options.get_option_historicals('TSLA', '2020-08-28', '500.0000', 'call')
+r.options.get_option_historicals('TSLA', '2020-08-28', '500.0000', 'both')
+r
+r.stocks.find_instrument_data('APPL')
+r.stocks.find_instrument_data('DOGE')
+r.stocks.find_instrument_data('BTCUSD')
+r.stocks.find_instrument_data('BTC')
+r.crypto.get_crypto_currency_pairs('BTCUSD')
+r.crypto.get_crypto_currency_pairs()
+crypto=r.crypto.get_crypto_currency_pairs()
+crypto[0]
+r.crypto.get_crypto_historicals('BTCUSD',interval='hour',span='week',bounds='24_7')
+r.crypto.get_crypto_historicals('BTCUSD',interval='hour',span='week',bounds='24_7',info=None)
+r.crypto.get_crypto_currency_pairs(info='symbol')
+r.crypto.get_crypto_historicals('BTC-USD',interval='hour',span='week',bounds='24_7',info=None)
+r.crypto.get_crypto_historicals('BTC-USD',interval='hour',span='week',bounds='24_7')
+r.crypto.get_crypto_info('BTC-USD')
+r.crypto.get_crypto_info('BTCUSD')
+r.crypto.get_crypto_info('BTC')
+r.crypto.get_crypto_historicals('BTC',interval='hour',span='week',bounds='24_7')
+historicalData = r.crypto.get_crypto_historicals('BTC',interval='hour',span='week',bounds='24_7')
+import matplotlib.pyplot as plt
+import datetime as dt
+dates = []
+closingPrices = []
+openPrices = []
+for data_point in historicalData:
+    dates.append(data_point['begins_at'])
+    closingPrices.append(data_point['close_price'])
+    openPrices.append(data_point['open_price'])
+# change the dates into a format that matplotlib can recognize.
+x = [dt.datetime.strptime(d,'%Y-%m-%dT%H:%M:%SZ') for d in dates]
+# plot the data.
+plt.plot(x, closingPrices, 'ro')
+plt.plot(x, openPrices, 'bo')
+plt.title("Option price for {} over time".format(symbol_name))
+plt.xlabel("Dates")
+plt.ylabel("Price")
+plt.show()
+symbol_name='BTC'
+dates = []
+closingPrices = []
+openPrices = []
+for data_point in historicalData:
+    dates.append(data_point['begins_at'])
+    closingPrices.append(data_point['close_price'])
+    openPrices.append(data_point['open_price'])
+# change the dates into a format that matplotlib can recognize.
+x = [dt.datetime.strptime(d,'%Y-%m-%dT%H:%M:%SZ') for d in dates]
+# plot the data.
+plt.plot(x, closingPrices, 'ro')
+plt.plot(x, openPrices, 'bo')
+plt.title("Option price for {} over time".format(symbol_name))
+plt.xlabel("Dates")
+plt.ylabel("Price")
+plt.show()
+a=plt.show()
+a
+plt
+dates
+closingPrices
+historicalData
+data_point
+openPrices
+closingPrices
+openPices
+openPrices
+closingPrices
+openPrices
+closingPrices
+openPrices
+dates
+openPrices
+closingPrices
+import requests
+x = requests.get('https://w3schools.com')
+print(x.status_code)
+x
+x.status
+x.status_code
+x.text
+exit
+import requests
+x = requests.get('https://w3schools.com')
+https://api.coingecko.com/api/v3/coins/
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+x
+x.text
+x.text.[0]
+x.text.{}
+x.json()
+x.json().{}
+x.json().id
+x.json()['id']
+x.json()['market_current_price']
+x.json()['market_data']['current_price']
+x.json()['market_data']['current_price']['usd']
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+x.json()['market_data']['current_price']['usd']
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+x.json()['market_data']['current_price']['usd']
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+x.json()['market_data']['current_price']['usd']
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+x.json()['market_data']['current_price']['usd']
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+x.json()['market_data']['current_price']['usd']
+array=[]
+array.push
+p=x.json()['market_data']['current_price']['usd']
+p
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+p
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+p
+p=x.json()['market_data']['current_price']['usd']
+x =requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+p
+array.append(p)
+array
+p=x.json()['market_data']['current_price']['usd']
+p
+import requests
+request = requests.get('https://api.coingecko.com/api/v3/coins/klima-dao')
+json=request.json()
+price=json['market_data']['current_price']['usd']
+array=[]
+array.append(price)
+print(array)
+price
+.exit
+    print(f"\0337\033[0;{lines}r\033[{lines};0f\033[0K\0338")
+a=deque()
+from collections import deque
+a=deque()
+a
+a.append(1)
+a
+str(a)
+list(collections.deque(a)
+)
+list(deque(a))
+''.join((list(deque(a)))
+''.join((list(deque(a))
+''.join((list(deque(a))))
+''.join(str((list(deque(a)))))
+''.join(map(str,(list(deque(a))))
+''.join(map(str,(list(deque(a)))))
+a
+''.join(map(str,(list(deque(a)))))
+map(str,(list(deque(a))))
+''.join(map(str,(list(deque(a)))))
+a.append(2)
+a
+''.join(map(str,(list(deque(a)))))
+','.join(map(str,(list(deque(a)))))
+a.append(32)
+','.join(map(str,(list(deque(a)))))
+a.append(10)
+','.join(map(str,(list(deque(a)))))
+from collections import deque
+a=deque()
+a.append(10)
+a.append(12)
+a.append(5)
+def stringify_deque(dlist):
+    ','.join(map(str,(list(deque(dlist)))))
+stringify_deque(a)
+def stringify_deque(dlist):
+    return ','.join(map(str,(list(deque(dlist)))))
+stringify_deque(a)
+10 % 30
+30 % 30
+60 % 30
+import subprocses
+import subprocess
+subprocses.checkoutput("ls",shell=True)
+subprocess.checkoutput("ls",shell=True)
+subprocess.check_output("ls",shell=True)
+subprocess.check_output("echo 'Vic';echo 'again';",shell=True)
+from collections import defaultdict
+a=defaultdict(item)
+item=[1,2]
+a=defaultdict(item)
+defaultdict(list)
+defaultdict()
+defaultdict(1)
+list
+defaultdict
+d=defaultdict(list)
+d[0]=1
+d
+d[1]=2
+d["vic"]="the best"
+d
+list
+a=list
+a[0]=1
+a
+d
+d[c]
+d[5]
+d[9]
+from collections import defaultdict
+class Graph:
+ def _init_(self):
+   self.graph - defaultdict(list) #defaultdict takes in a function as an argument. Using the list function will return an array
+ def insertEdge(self,v1,v2):
+    self.graph[v1].append(v2) #1 points to 2 (1 => 2), add to list
+g = Graph()
+g
+gg.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+g.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+from collections import defaultdict
+class Graph:
+ def _init_(self):
+   self.graph - defaultdict(list) #defaultdict takes in a function as an argument. Using the list function will return an array
+ def insertEdge(self,v1,v2):
+    self.graph[v1].append(v2) #1 points to 2 (1 => 2), add to list
+g = Graph()
+class Graph:
+ def _init_(self):
+   self.graph = defaultdict(list) #defaultdict takes in a function as an argument. Using the list function will return an array
+ def insertEdge(self,v1,v2):
+    self.graph[v1].append(v2) #1 points to 2 (1 => 2), add to list
+g = Graph()
+g.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+from collections import defaultdict
+class Graph:
+ def _init_(self):
+   self.graph = defaultdict(list) #defaultdict takes in a function as an argument. Using the list function will return an array
+ def insertEdge(self,v1,v2):
+    self.graph[v1].append(v2) #1 points to 2 (1 => 2), add to list
+g = Graph()
+g.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+from collections import defaultdict
+class Graph:
+ def _init_(self):
+   self.graph = defaultdict(list) 
+ def insertEdge(self,v1,v2):
+.edit
+edit9)
+edit()
+editor()
+editor
+class Graph:
+ def _init_(self):
+   self.graph = defaultdict(list) 
+class Graph:
+ def _init_(self):
+   self.graph = defaultdict(list) 
+ def insertEdge(self,v1,v2):
+    self.graph[v1].append(v2) 
+g = Graph()
+g.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+from collections import defaultdict
+class Graph:
+ def _init_(self):
+   self.graph = defaultdict(list) 
+class Graph:
+  def _init_(self):
+    self.graph = defaultdict(list) 
+  def insertEdge(self,v1,v2):
+class Graph:
+  def _init_(self):
+    self.graph = defaultdict(list) 
+  def insertEdge(self,v1,v2):
+     self.graph[v1].append(v2) 
+Graph()
+Graph().graph
+class Graph:
+  def _init_(self):
+    self.graph = defaultdict(list) 
+  def insertEdge(self,v1,v2):
+     self.graph[v1].append(v2) 
+Graph()
+Graph().graph
+class Vic:
+from collections import defaultdict
+class Graph:
+  def __init__(self):
+    self.graph = defaultdict(list) 
+  def insertEdge(self,v1,v2):
+     self.graph[v1].append(v2) 
+g = Graph()
+g.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+g
+g.graph
+from collections import defaultdict
+class Graph:
+  def __init__(self):
+    self.graph = defaultdict(list) 
+  def insertEdge(self,v1,v2):
+     self.graph[v1].append(v2) 
+  def printGraph(self):
+     for node in self.graph:
+       for v in self.graph[node]:
+         print(node,"=>",v)
+g = Graph()
+g.insertEdge(1,5)
+g.insertEdge(5,2)
+g.insertEdge(2,7)
+g.printGraph
+g.printGraph()
+v=[1,2,3]
+0 for x in range(v)
+a=[0 for x in range(2)]
+a
+class Graph:
+  def __init__(self,numberOfNodes):
+    self.graph = [[0 for x in range(numberOfNodes+1))] 
+                   for y in range(numberOfNodes+1)]
+  
+  def withinBounds(self, v1, v2):
+    return (v1 >=0 and v1 <= self.numberOfNodes) and (v2 >= 0 and v2 <= self.nubmerOfNodes)
+  def insertEdge(self, v1, v2):
+    if(self.withinBounds(v1, v2)):
+      self.graph[v1][v2] = 1
+  def printGraph(self):
+    for i in range(self.numberOfNodes):
+      for j in range(len(self.graph[i])):
+        if(self.graph[i][j]):
+          print(i, "=>, j)
+g= Graph(5)
+g.insertEdge(1, 2)
+g.insertEdge(2, 3)
+g.insertEdge(4, 5)
+g.printGraph()
+class Graph:
+  def __init__(self,numberOfNodes):
+    self.graph = [[0 for x in range(numberOfNodes+1))] 
+                   for y in range(numberOfNodes+1)]  
+  def withinBounds(self, v1, v2):
+    return (v1 >=0 and v1 <= self.numberOfNodes) and (v2 >= 0 and v2 <= self.nubmerOfNodes)
+  def insertEdge(self, v1, v2):
+    if(self.withinBounds(v1, v2)):
+      self.graph[v1][v2] = 1
+  def printGraph(self):
+    for i in range(self.numberOfNodes):
+      for j in range(len(self.graph[i])):
+        if(self.graph[i][j]):
+          print(i, "=>, j)
+class Graph:
+  def __init__(self,numberOfNodes):
+    self.numberOfNodes = numberOfNodes+1
+    self.graph = [[0 for x in range(numberOfNodes+1)] 
+                   for y in range(numberOfNodes+1)]  
+  def withinBounds(self, v1, v2):
+    return (v1 >=0 and v1 <= self.numberOfNodes) and (v2 >= 0 and v2 <= self.nubmberOfNodes)
+  def insertEdge(self, v1, v2):
+    if(self.withinBounds(v1, v2)):
+      self.graph[v1][v2] = 1
+  def printGraph(self):
+    for i in range(self.numberOfNodes):
+      for j in range(len(self.graph[i])):
+        if(self.graph[i][j]):
+          print(i, "=>, j)
+g= Graph(5)
+g.insertEdge(1, 2)
+g.insertEdge(2, 3)
+g.insertEdge(4, 5)
+class Graph:
+  def __init__(self,numberOfNodes):
+    self.numberOfNodes = numberOfNodes+1
+    self.graph = [[0 for x in range(numberOfNodes+1)] 
+                   for y in range(numberOfNodes+1)]  
+  def withinBounds(self, v1, v2):
+    return (v1 >=0 and v1 <= self.numberOfNodes) and (v2 >= 0 and v2 <= self.nubmberOfNodes)
+  def insertEdge(self, v1, v2):
+    if(self.withinBounds(v1, v2)):
+      self.graph[v1][v2] = 1
+  def printGraph(self):
+    for i in range(self.numberOfNodes):
+      for j in range(len(self.graph[i])):
+        if(self.graph[i][j]):
+          print(i, "=>", j)
+g= Graph(5)
+g.insertEdge(1, 2)
+g.insertEdge(2, 3)
+g.insertEdge(4, 5)
+class Graph:
+  def __init__(self,numberOfNodes):
+    self.numberOfNodes = numberOfNodes+1
+    self.graph = [[0 for x in range(numberOfNodes+1)] 
+                   for y in range(numberOfNodes+1)]  
+  def withinBounds(self, v1, v2):
+    return (v1 >=0 and v1 <= self.numberOfNodes) and (v2 >= 0 and v2 <= self.numberOfNodes)
+  def insertEdge(self, v1, v2):
+    if(self.withinBounds(v1, v2)):
+      self.graph[v1][v2] = 1
+  def printGraph(self):
+    for i in range(self.numberOfNodes):
+      for j in range(len(self.graph[i])):
+        if(self.graph[i][j]):
+          print(i, "=>", j)
+g= Graph(5)
+g.insertEdge(1, 2)
+g.insertEdge(2, 3)
+g.insertEdge(4, 5)
+g.printGraph()
+import sys
+sys.stdin
+sys.stdin()
+d c
+for index, item in enumerate(items):
+    print(index, item)
+items=[1,2,3]
+for index, item in enumerate(items):
+    print(index, item)
+for index, item in enumerate(items):
+    print(index, item)
+for index, item in enumerate(index,items):
+print(index,item)
+for index, item in enumerate(index,items):
+	print(index,item)
+for index, item in enumerate(items,start=index):
+	print(index,item)
+for index, item in enumerate(items,start=index):
+	print(index,item)
+for index, item in enumerate(items):
+    print(index, item)
+items=[1,2,3,4]
+for index, item in enumerate(items):
+    print(index, item)
+for index, 3 in enumerate(items):
+    print(index, item)
+a=3
+for index, a in enumerate(items):
+    print(index, item)
+a_list = [1,2,3,4,5]
+for index, elem in enumerate(a_list):
+    if (index+1 < len(a_list) and index - 1 >= 0):
+Check index bounds
+        prev_el = str(a_list[index-1])
+        curr_el = str(elem)
+        next_el = str(a_list[index+1])
+a_list = [1,2,3,4,5]
+for index, elem in enumerate(a_list):
+    if (index+1 < len(a_list) and index - 1 >= 0):
+        prev_el = str(a_list[index-1])
+        curr_el = str(elem)
+        next_el = str(a_list[index+1])
+        print(prev_el, curr_el, next_el)
+a_list = [1,2,3,4,5]
+for index, elem in enumerate(a_list):
+    if (index+1 < len(a_list) and index - 1 >= 0):
+        prev_el = str(a_list[index-1])
+        curr_el = str(elem)
+        next_el = str(a_list[index+1])
+print(prev_el, curr_el, next_el)
+a_list = [1,2,3,4,5]
+for index, elem in enumerate(a_list):
+    if (index+1 < len(a_list) and index - 1 >= 0):
+        prev_el = str(a_list[index-1])
+        curr_el = str(elem)
+        next_el = str(a_list[index+1])
+    print(prev_el, curr_el, next_el)
+a_list = [1,2,3,4,5]
+for index, elem in enumerate(a_list):
+    if (index+1 < len(a_list) and index - 1 >= 0):
+        prev_el = str(a_list[index-1])
+        curr_el = str(elem)
+        next_el = str(a_list[index+1])
+    print(prev_el, curr_el, next_el)
+a_list = [1,2,3,4,5]
+for index, elem in enumerate(a_list):
+    if (index+1 < len(a_list) and index - 1 >= 0):
+        prev_el = str(a_list[index-1])
+        curr_el = str(elem)
+        next_el = str(a_list[index+1])
+        print(prev_el, curr_el, next_el)
+def getRest(elem):
+	for index, elem in enumerate(a_list):
+		print(index,elem)
+getRest(2)
+a=a_list
+a
+a[0:1]
+a[0:2]
+a[1:2]
+a[1:]
+a[3:]
+a=[]
+def add(val):
+	if val not in a:
+		a.append(val)
+add(2)
+a
+add(3)
+a
+a(2)
+a
+add(2)
+a
+import sys
+sys.stdin.readlines()
+sys.stdin.readlines().split()
+a=sys.stdin.readlines()
+a
+for val in a:
+	val.split()
+import sys
+a=sys.stdin.readlines()
+a
+temp=[]
+for val in a:
+	val=val.strip()
+	temp.append(val)
+temp
+temp.pop(0)
+temp
+import sys
+a=sys.stdin.readlines()
+a
+a=sys.stdin.readlines().split(" ")
+a=["Vic","Victor","Ekpo"]
+b=["1","2","3"]
+c=zip(a,b)
+d=dict(c)
+c
+d
+e=set(c)
+e
+.exit
+exit()
